@@ -142,7 +142,7 @@ header .head ul li {
   header .menu-btn {
     position: fixed;
     top: 10px;
-    right: 10px;
+    right: 380px;
     display: flex;
     height: 50px;
     width: 50px;
@@ -186,7 +186,7 @@ header .head ul li {
     left: 0;
   }
   header .menu-content {
-    width: 100%;
+    width: 440px;
     height: 100px;
     position: fixed;
     top: 0;
@@ -745,6 +745,12 @@ header .head ul li {
 
 .contact .contact-icons p {
   font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .contact .contact-icons p {
+    margin: 0 30px;
+  }
 }
 
 .contact .contact-icons ul {
