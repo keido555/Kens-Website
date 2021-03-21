@@ -142,7 +142,7 @@ header .head ul li {
   header .menu-btn {
     position: fixed;
     top: 10px;
-    right: 380px;
+    right: 50px;
     display: flex;
     height: 50px;
     width: 50px;
@@ -311,6 +311,16 @@ header .head ul li {
   background: linear-gradient(to bottom left, transparent 50%, lightgray 50%) top left/100% 50% no-repeat, linear-gradient(to top left, transparent 50%, lightgray 50%) bottom left/100% 50% no-repeat;
   transform: rotate(13deg);
   z-index: 10;
+}
+
+@media screen and (max-width: 480px) {
+  .top-header .top-header-tri {
+    width: 600px;
+    height: 600px;
+    top: -132%;
+    left: -60%;
+    transform: rorate(18deg);
+  }
 }
 
 .top-header .top-header-circle {
