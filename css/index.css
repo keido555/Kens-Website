@@ -262,6 +262,12 @@ header .head ul li {
   z-index: 30;
 }
 
+@media screen and (max-width: 480px) {
+  .top-header p {
+    font-size: 23px;
+  }
+}
+
 .top-header .top-header-deco {
   width: 400px;
   height: 400px;
@@ -290,10 +296,10 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .top-header .top-header-deco {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     position: relative;
-    top: -16%;
+    top: -8%;
     left: 25%;
     opacity: 0.8;
     background: linear-gradient(to bottom left, transparent 50%, #f5f551 50%) top left/100% 50% no-repeat, linear-gradient(to top left, transparent 50%, #f5f551 50%) bottom left/100% 50% no-repeat;
@@ -317,7 +323,7 @@ header .head ul li {
   .top-header .top-header-tri {
     width: 600px;
     height: 600px;
-    top: -132%;
+    top: -112%;
     left: -60%;
     transform: rorate(18deg);
   }
@@ -337,11 +343,11 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .top-header .top-header-circle {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     position: relative;
-    top: -110%;
-    left: 76%;
+    top: -85%;
+    left: 66%;
     border-top: solid 10px red;
     border-left: solid 10px green;
     border-right: solid 10px blue;
@@ -352,6 +358,12 @@ header .head ul li {
 /* aboutMe画面 */
 .aboutMe {
   height: 1000px;
+}
+
+@media screen and (max-width: 480px) {
+  .aboutMe {
+    height: 1100px;
+  }
 }
 
 .aboutMe .aboutMe-head {
@@ -379,6 +391,12 @@ header .head ul li {
 .aboutMe .aboutMe-introduction {
   height: 300px;
   padding-top: 100px;
+}
+
+@media screen and (max-width: 480px) {
+  .aboutMe .aboutMe-introduction {
+    height: 400px;
+  }
 }
 
 .aboutMe .aboutMe-introduction h2 {
@@ -413,7 +431,7 @@ header .head ul li {
 @media screen and (max-width: 480px) {
   .aboutMe .aboutMe-introduction p {
     font-size: 16px;
-    width: 350px;
+    width: 300px;
     margin: 10px auto;
     padding: 10px;
   }
@@ -459,7 +477,7 @@ header .head ul li {
 @media screen and (max-width: 480px) {
   .aboutMe .aboutMe-education p {
     font-size: 16px;
-    width: 350px;
+    width: 300px;
     margin: 10px auto;
     padding: 10px;
   }
@@ -551,7 +569,7 @@ header .head ul li {
     flex-wrap: wrap;
   }
   .service-item {
-    width: 40%;
+    width: 30%;
     height: 50%;
   }
 }
@@ -591,8 +609,8 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-1 img {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 220px;
   }
 }
 
@@ -620,8 +638,8 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-1 .caption-1 {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 180px;
   }
 }
 
@@ -632,7 +650,7 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-1 .caption-1 p {
-    width: 400px;
+    width: 350px;
     font-size: 100%;
   }
 }
@@ -652,8 +670,8 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-2 img {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 220px;
   }
 }
 
@@ -681,8 +699,8 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-2 .caption-2 {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 180px;
   }
 }
 
@@ -693,7 +711,7 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-2 .caption-2 p {
-    width: 400px;
+    width: 350px;
     font-size: 100%;
   }
 }
@@ -713,8 +731,8 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-3 img {
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 220px;
   }
 }
 
@@ -742,8 +760,8 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-3 .caption-3 {
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 180px;
   }
 }
 
@@ -754,8 +772,20 @@ header .head ul li {
 
 @media screen and (max-width: 480px) {
   .work .work-list .work-item-3 .caption-3 p {
-    width: 400px;
+    width: 330px;
     font-size: 100%;
+  }
+}
+
+.work .work-list .caption-0 {
+  opacity: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .work .work-list .caption-0 {
+    opacity: 1;
+    color: #030303;
+    margin-top: 20px;
   }
 }
 

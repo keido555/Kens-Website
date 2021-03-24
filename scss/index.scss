@@ -260,6 +260,9 @@ header {
         top: 55%;
         font-size: 30px;
         z-index: 30;
+        @media screen and (max-width: 480px) {
+            font-size: 23px;
+        }
     }
 
     .top-header-deco {
@@ -288,10 +291,10 @@ header {
         }
 
         @media screen and (max-width: 480px) {
-            width: 250px;
-            height: 250px;
+            width: 220px;
+            height: 220px;
             position: relative;
-            top: -16%;
+            top: -8%;
             left: 25%;
             opacity: 0.8;
             background: linear-gradient(to bottom left, transparent 50%, rgb(245, 245, 81) 50%) top left/ 100% 50% no-repeat,
@@ -314,7 +317,7 @@ header {
         @media screen and (max-width: 480px) {
             width: 600px;
             height: 600px;
-            top: -132%;
+            top: -112%;
             left: -60%;
             transform: rorate(18deg);
         }
@@ -332,11 +335,11 @@ header {
         border-radius: 50%;
 
         @media screen and (max-width: 480px) {
-            width: 3rem;
-            height: 3rem;
+            width: 2.5rem;
+            height: 2.5rem;
             position: relative;
-            top: -110%;
-            left: 76%;
+            top: -85%;
+            left: 66%;
             border-top: solid 10px red;
             border-left: solid 10px green;
             border-right: solid 10px blue;
@@ -348,6 +351,10 @@ header {
 /* aboutMe画面 */
 .aboutMe {
     height: 1000px;
+
+    @media screen and (max-width: 480px) {
+        height: 1100px;
+    }
 
     .aboutMe-head {
         height: 300px;
@@ -371,6 +378,9 @@ header {
     .aboutMe-introduction {
         height: 300px;
         padding-top: 100px;
+        @media screen and (max-width: 480px) {
+            height: 400px;
+        }
         h2 {
             font-size: 36px;
             padding-bottom: 12px;
@@ -397,7 +407,7 @@ header {
 
             @media screen and (max-width: 480px) {
                 font-size: 16px;
-                width: 350px;
+                width: 300px;
                 margin: 10px auto;
                 padding: 10px;
             }
@@ -435,7 +445,7 @@ header {
 
             @media screen and (max-width: 480px) {
                 font-size: 16px;
-                width: 350px;
+                width: 300px;
                 margin: 10px auto;
                 padding: 10px;
             }
@@ -517,7 +527,7 @@ header {
         flex-wrap:wrap;
     }
     .service-item{
-        width: 40%;
+        width: 30%;
         height: 50%;
     }
 }
@@ -547,8 +557,8 @@ header {
                 width: 500px;
                 height: 350px;
                 @media screen and (max-width: 480px) {
-                    width: 400px;
-                    height: 250px;
+                    width: 350px;
+                    height: 220px;
                 }
             }
             .mask1 {
@@ -570,14 +580,14 @@ header {
                 opacity: 0;
                 color: #fff;
                 @media screen and (max-width: 480px) {
-                    width: 400px;
-                    height: 200px;
+                    width: 350px;
+                    height: 180px;
                 }
                 p {
                     font-size: 125%;
                     width: 500px;
                     @media screen and (max-width: 480px) {
-                        width: 400px;
+                        width: 350px;
                         font-size: 100%;
                     }
                 }
@@ -593,8 +603,8 @@ header {
                 width: 500px;
                 height: 350px;
                 @media screen and (max-width: 480px) {
-                    width: 400px;
-                    height: 250px;
+                    width: 350px;
+                    height: 220px;
                 }
             }
             .mask1 {
@@ -616,14 +626,14 @@ header {
                 opacity: 0;
                 color: #fff;
                 @media screen and (max-width: 480px) {
-                    width: 400px;
-                    height: 200px;
+                    width: 350px;
+                    height: 180px;
                 }
                 p {
                     font-size: 125%;
                     width: 500px;
                     @media screen and (max-width: 480px) {
-                        width: 400px;
+                        width: 350px;
                         font-size: 100%;
                     }
                 }
@@ -639,8 +649,8 @@ header {
                 width: 500px;
                 height: 350px;
                 @media screen and (max-width: 480px) {
-                    width: 400px;
-                    height: 250px;
+                    width: 350px;
+                    height: 220px;
                 }
             }
             .mask1 {
@@ -662,17 +672,25 @@ header {
                 opacity: 0;
                 color: #fff;
                 @media screen and (max-width: 480px) {
-                    width: 400px;
-                    height: 200px;
+                    width: 350px;
+                    height: 180px;
                 }
                 p {
                     font-size: 125%;
                     width: 500px;
                     @media screen and (max-width: 480px) {
-                        width: 400px;
+                        width: 330px;
                         font-size: 100%;
                     }
                 }
+            }
+        }
+        .caption-0 {
+            opacity: 0;
+            @media screen and (max-width: 480px) {
+                opacity: 1;
+                color: #030303;
+                margin-top: 20px;
             }
         }
 
