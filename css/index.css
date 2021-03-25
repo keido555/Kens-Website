@@ -553,7 +553,13 @@ header .head ul li {
   color: black;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
+  .service-item {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 481px) {
   /*コース一覧*/
   .service-item {
     width: 70%;
@@ -569,7 +575,7 @@ header .head ul li {
     flex-wrap: wrap;
   }
   .service-item {
-    width: 30%;
+    width: 40%;
     height: 50%;
   }
 }
